@@ -1,0 +1,504 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css);
+@import url(https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Martel+Sans:700,800,900,400);
+@import url(jquery.fullpage.css);
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.fadeIn {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+.puffIn {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: puffIn;
+  animation-name: puffIn; }
+
+.tinDownIn {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: tinDownIn;
+  animation-name: tinDownIn; }
+
+.puffIn2 {
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-name: puffIn;
+  animation-name: puffIn; }
+
+@-webkit-keyframes puffIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: scale(2, 2);
+    -webkit-filter: blur(2px); }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+    -webkit-filter: blur(0px); } }
+@keyframes puffIn {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(2, 2);
+    filter: blur(2px); }
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+    filter: blur(0px); } }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes tinDownIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1, 1) translateY(900%); }
+  50%, 70%, 90% {
+    opacity: 1;
+    -webkit-transform: scale(1.1, 1.1) translateY(0); }
+  60%, 80%, 100% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1) translateY(0); } }
+@keyframes tinDownIn {
+  0% {
+    opacity: 0;
+    transform: scale(1, 1) translateY(900%); }
+  50%, 70%, 90% {
+    opacity: 1;
+    transform: scale(1.1, 1.1) translateY(0); }
+  60%, 80%, 100% {
+    opacity: 1;
+    transform: scale(1, 1) translateY(0); } }
+body {
+  line-height: 1.2;
+  font-family: 'Martel Sans', sans-serif; }
+
+#section1 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#554971+0,291044+100 */
+  background: #554971;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #554971 0%, #291044 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #554971 0%, #291044 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #554971 0%, #291044 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#554971', endColorstr='#291044',GradientType=0 );
+  /* IE6-9 */ }
+
+#section2 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+  background: #eeeeee;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+  /* IE6-9 */ }
+
+#section3 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8ac6d0+0,4bbdcc+100 */
+  background: #8ac6d0;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #8ac6d0 0%, #4bbdcc 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #8ac6d0 0%, #4bbdcc 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #8ac6d0 0%, #4bbdcc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ac6d0', endColorstr='#4bbdcc',GradientType=0 );
+  /* IE6-9 */ }
+
+#section4 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#556d89+0,3c6089+100 */
+  background: #556d89;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #556d89 0%, #3c6089 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #556d89 0%, #3c6089 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #556d89 0%, #3c6089 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#556d89', endColorstr='#3c6089',GradientType=0 );
+  /* IE6-9 */ }
+
+#section5 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+  background: #eeeeee;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+  /* IE6-9 */ }
+
+#section6 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8ac6d0+0,4bbdcc+100 */
+  background: #8ac6d0;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #8ac6d0 0%, #4bbdcc 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #8ac6d0 0%, #4bbdcc 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #8ac6d0 0%, #4bbdcc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ac6d0', endColorstr='#4bbdcc',GradientType=0 );
+  /* IE6-9 */ }
+
+#section7 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#36213e+0,6b3a84+100 */
+  background: #36213e;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #36213e 0%, #6b3a84 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #36213e 0%, #6b3a84 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #36213e 0%, #6b3a84 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36213e', endColorstr='#6b3a84',GradientType=0 );
+  /* IE6-9 */ }
+
+p, li, h1, h2, h3, h4, b, strong, div {
+  font-family: 'Martel Sans', sans-serif;
+  color: white; }
+
+b, strong {
+  font-weight: 800; }
+
+h1 {
+  font-size: 5.2em;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-transform: uppercase; }
+
+h2 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 1.6em; }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background-color: white;
+  border: 2px solid #554971;
+  height: 8px;
+  width: 8px;
+  margin: -3px 0 0 -3px; }
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+  height: 15px;
+  width: 15px;
+  margin: -7.5px 0 0 -7.5px;
+  border-radius: 100%; }
+
+#section1 h2 {
+  margin-bottom: 15px; }
+
+#section1 img {
+  width: 80%;
+  margin-top: 15px; }
+
+.arrow {
+  position: fixed;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  z-index: 999;
+  left: 50%;
+  margin-bottom: 10px;
+  font-size: 3em;
+  color: white; }
+
+.skillsGrid {
+  margin-top: 60px; }
+
+.skill {
+  font-size: 2em;
+  height: 75px;
+  text-align: center;
+  margin-top: 10px; }
+
+.skill span {
+  display: block;
+  line-height: 1;
+  font-size: 14px; }
+
+p {
+  font-size: 1.2em;
+  margin: 0;
+  line-height: 1.2; }
+
+#aboutMe {
+  text-align: justify; }
+
+a:link {
+  text-decoration: none;
+  color: #b8f3ff;
+  font-weight: bold; }
+
+a:visited {
+  text-decoration: none;
+  color: #b8f3ff;
+  font-weight: bold; }
+
+a:hover {
+  text-decoration: none;
+  color: #8ac6d0; }
+
+a:active {
+  text-decoration: none;
+  color: #8ac6d0; }
+
+#me {
+  border: 3px solid white; }
+
+h3 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3.6em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+.appPhoto {
+  width: 80%;
+  display: block; }
+
+.contentBox {
+  width: 80%;
+  padding-top: 10px;
+  margin: auto;
+  margin-bottom: 70px; }
+
+.button {
+  margin-top: 20px;
+  font-family: 'Martel Sans', sans-serif; }
+
+#section2 p {
+  color: #36213e; }
+
+#section2 h3 {
+  color: #36213e; }
+
+#section2 .button {
+  background-color: #36213e;
+  color: white;
+  border-color: #554971; }
+
+#section2 .button:hover {
+  background-color: #554971; }
+
+#section2 .appPhoto {
+  border: 2px solid #36213e; }
+
+#section3 p {
+  color: white; }
+
+#section3 h3 {
+  color: white; }
+
+#section3 .appPhoto {
+  border: 2px solid #63768d; }
+
+#section3 .button {
+  background-color: #63768d;
+  color: white;
+  border-color: #554971; }
+
+#section3 .button:hover {
+  background-color: #554971; }
+
+#section4 p {
+  color: white; }
+
+#section4 h3 {
+  color: white; }
+
+#section4 .appPhoto {
+  border: 2px solid #554971; }
+
+#section4 .button {
+  background-color: #554971;
+  color: white;
+  border-color: white; }
+
+#section4 .button:hover {
+  background-color: #36213e; }
+
+#section5 p {
+  color: #36213e; }
+
+#section5 h3 {
+  color: #36213e; }
+
+#section5 .button {
+  background-color: #36213e;
+  color: white;
+  border-color: white; }
+
+#section5 .button:hover {
+  background-color: #554971; }
+
+#section5 .appPhoto {
+  border: 2px solid #36213e; }
+
+#section6 p {
+  color: white; }
+
+#section6 h3 {
+  color: white; }
+
+#section6 .button {
+  background-color: #63768d;
+  color: white;
+  border-color: white; }
+
+#section6 .button:hover {
+  background-color: #36213e; }
+
+#section6 .appPhoto {
+  border: 2px solid white; }
+
+.jobTitle {
+  font-size: 1.4em;
+  color: white;
+  font-weight: bold;
+  line-height: 1; }
+
+.orgTitle {
+  font-size: 1.2em; }
+
+.orgLocation {
+  font-size: 1.2em; }
+
+.jobDescription {
+  font-size: 1.2em; }
+
+.experienceCard {
+  border-left: 4px solid #8ac6d0;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 0; }
+
+#section7 h3 {
+  text-align: left;
+  margin-left: 15px; }
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3em;
+    margin-top: 10px; }
+
+  h2 {
+    font-size: 1.2em; }
+
+  h3 {
+    font-size: 1.6em;
+    line-height: 1;
+    margin-bottom: 5px;
+    padding-bottom: 5px; }
+
+  .experienceCard {
+    border-left: 4px solid #8ac6d0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 0; }
+
+  .jobTitle {
+    font-size: .6em;
+    color: white;
+    font-weight: bold;
+    line-height: 1; }
+
+  .orgTitle {
+    font-size: .6em; }
+
+  .orgLocation {
+    font-size: .6em; }
+
+  .jobDescription {
+    font-size: .6em; }
+
+  p {
+    font-size: .8em; }
+
+  #skillsPanel p {
+    margin-top: 15px; }
+
+  #section1 img {
+    display: none; }
+
+  .skillsGrid .columns {
+    width: 25% !important; }
+
+  .skillsGrid {
+    margin-top: 5px; }
+
+  .skill {
+    font-size: .8em;
+    height: 30px; }
+
+  .skill span {
+    font-size: 8px; }
+
+  .button {
+    line-height: 20px;
+    height: 20px;
+    font-size: .5em;
+    padding: 0, 10px;
+    margin-bottom: 0; }
+
+  .arrow {
+    display: none; }
+
+  .projectType {
+    font-size: .5em;
+    margin-bottom: 10px; }
+
+  .contentBox {
+    padding-top: 10px;
+    margin-bottom: 20px; }
+
+  h2 {
+    margin-bottom: 5px; }
+
+  .section {
+    padding-top: 10px; }
+
+  #fp-nav {
+    display: none; } }
+
+/*# sourceMappingURL=styles.css.map */
