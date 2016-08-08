@@ -1,7 +1,7 @@
 var main = function(){
 
 $('#fullpage').fullpage({
-      anchors: ['home', 'eventeral', 'twiser', 'wck', 'dinendash', 'dcck', 'experience'],
+      anchors: ['home', 'eventeral', 'swolify', 'twiser', 'wck', 'dinendash', 'dcck', 'experience'],
       navigation: true,
       navigationPosition: 'right',
       menu: '#menu',
