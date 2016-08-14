@@ -406,7 +406,8 @@ h3 {
   font-size: 1.2em; }
 
 .jobDescription {
-  font-size: 1.2em; }
+  font-size: 1em;
+  margin-top: 5px; }
 
 .experienceCard {
   border-left: 4px solid #8ac6d0;
