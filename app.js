@@ -10,6 +10,11 @@ $('#fullpage').fullpage({
       loopBottom: true,
       fixedElements: 'experience'
     });
+
+
+$('.venobox').venobox();
+
 }
+
 
 $(document).ready(main);
